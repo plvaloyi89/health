@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            >
+
+
+    <TableLayout android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:padding="10dp">
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="82dp"
+                  android:text="If you would like more information on how to help you achieve your diet and nutrional goals please fill out this form."
+                  style="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TableRow android:layout_width="343dp">
+            <TextView android:layout_width="111dp"
+                      android:layout_height="50dp"
+                      android:text="First Name"
+                      style="@style/TextAppearance.AppCompat.Medium"/>
+
+            <EditText android:layout_width="154dp"
+                      android:layout_height="50dp"
+                      android:id="@+id/Fname"/>
+        </TableRow>
+        <TableRow android:layout_width="343dp">
+            <TextView android:layout_width="111dp"
+                      android:layout_height="50dp"
+                      android:text="Last Name"
+                      style="@style/TextAppearance.AppCompat.Medium"/>
+
+            <EditText android:layout_width="154dp"
+                      android:layout_height="50dp"
+                      android:id="@+id/Lname"/>
+        </TableRow>
+        <TableRow android:layout_width="343dp">
+            <TextView android:layout_width="111dp"
+                      android:layout_height="50dp"
+                      android:text=" Email"
+                      style="@style/TextAppearance.AppCompat.Medium"/>
+
+            <EditText android:layout_width="256dp"
+                      android:layout_height="50dp"
+                      android:id="@+id/email"/>
+        </TableRow>
+        <TableRow android:layout_width="343dp">
+            <TextView android:layout_width="130dp"
+                      android:layout_height="50dp"
+                      android:text="Phone Number"
+                      style="@style/TextAppearance.AppCompat.Medium"/>
+
+            <EditText android:layout_width="154dp"
+                      android:layout_height="50dp"
+                      android:id="@+id/Pnumber"/>
+        </TableRow>
+
+        <TableRow android:layout_width="343dp">
+            <TextView android:layout_width="48dp"
+                      android:layout_height="50dp"
+                      android:text="Age"
+                      style="@style/TextAppearance.AppCompat.Medium"/>
+
+            <EditText android:layout_width="168dp"
+                      android:layout_height="50dp"
+                      android:id="@+id/age"/>
+        </TableRow>
+        <TableRow android:layout_width="343dp">
+            <TextView android:layout_width="48dp"
+                      android:layout_height="50dp"
+                      android:text="Height"
+                      style="@style/TextAppearance.AppCompat.Medium"/>
+
+            <EditText android:layout_width="168dp"
+                      android:layout_height="50dp"
+                      android:id="@+id/height"/>
+        </TableRow>
+        <TableRow android:layout_width="343dp">
+            <TextView android:layout_width="48dp"
+                      android:layout_height="50dp"
+                      android:text="Weight"
+                      style="@style/TextAppearance.AppCompat.Medium"/>
+
+            <EditText android:layout_width="168dp"
+                      android:layout_height="50dp"
+                      android:id="@+id/weight"/>
+        </TableRow>
+        <TableRow android:layout_width="343dp">
+            <TextView android:layout_width="48dp"
+                      android:layout_height="50dp"
+                      android:text="Occupation"
+                      style="@style/TextAppearance.AppCompat.Medium"/>
+
+            <EditText android:layout_width="168dp"
+                      android:layout_height="50dp"
+                      android:id="@+id/occupation"/>
+        </TableRow>
+        <TableRow android:layout_width="343dp"
+                  android:gravity="center">
+            <Button
+                    android:id="@+id/submit"
+                    android:text="SUBMIT"/>
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>
